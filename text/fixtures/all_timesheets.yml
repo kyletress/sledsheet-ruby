@@ -1,0 +1,216 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.sledsheet.com/api/v1/timesheets/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Thu, 28 Jul 2016 19:24:01 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"921537e7ca17ec879e0c988ff2bb8d53"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 525d93f4-5ab5-4a26-9ec5-ba06495848ee
+      X-Runtime:
+      - '0.060204'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":255,"name":"Lake Placid National Championships Race 2015-16
+        Men"},{"id":249,"name":"Lake Placid National Championships Training 2015-16
+        Men"},{"id":251,"name":"Lake Placid North American Cup Race 2015-16 Women"},{"id":252,"name":"Lake
+        Placid North American Cup Race 2015-16 Men"},{"id":248,"name":"Lake Placid
+        North American Cup Race 2015-16 Women"},{"id":247,"name":"Lake Placid North
+        American Cup Race 2015-16 Men"},{"id":245,"name":"Park City North American
+        Cup Race 2015-16 Women"},{"id":243,"name":"Park City North American Cup Race
+        2015-16 Men"},{"id":244,"name":"Park City North American Cup Race 2015-16
+        Men"},{"id":246,"name":"Park City North American Cup Race 2015-16 Women"},{"id":253,"name":"Konigssee
+        World Cup Race 2015-16 Men"},{"id":254,"name":"Konigssee World Cup Race 2015-16
+        Women"},{"id":241,"name":"Igls World Championship Race 2015-16 Women"},{"id":240,"name":"Igls
+        World Championship Race 2015-16 Men"},{"id":232,"name":"St. Moritz World Cup
+        Race 2015-16 Men"},{"id":233,"name":"St. Moritz World Cup Race 2015-16 Women"},{"id":237,"name":"St.
+        Moritz Europa Cup Race 2015-16 Men"},{"id":236,"name":"St. Moritz Europa Cup
+        Race 2015-16 Women"},{"id":235,"name":"St. Moritz Europa Cup Race 2015-16
+        Men"},{"id":234,"name":"St. Moritz Europa Cup Race 2015-16 Women"},{"id":228,"name":"Whistler
+        World Cup Race 2015-16 Women"},{"id":229,"name":"Whistler World Cup Race 2015-16
+        Men"},{"id":231,"name":"Winterberg Junior World Championship Race 2015-16
+        Women"},{"id":230,"name":"Winterberg Junior World Championship Race 2015-16
+        Men"},{"id":222,"name":"Park City World Cup Race 2015-16 Women"},{"id":221,"name":"Park
+        City World Cup Race 2015-16 Men"},{"id":220,"name":"Konigssee Europa Cup Race
+        2015-16 Men"},{"id":219,"name":"Konigssee Europa Cup Race 2015-16 Women"},{"id":217,"name":"Konigssee
+        Intercontinental Cup Race 2015-16 Men"},{"id":218,"name":"Konigssee Intercontinental
+        Cup Race 2015-16 Women"},{"id":214,"name":"Konigssee Intercontinental Cup
+        Race 2015-16 Women"},{"id":215,"name":"Konigssee Europa Cup Race 2015-16 Men"},{"id":213,"name":"Konigssee
+        Intercontinental Cup Race 2015-16 Men"},{"id":216,"name":"Konigssee Europa
+        Cup Race 2015-16 Women"},{"id":203,"name":"Lake Placid World Cup Race 2015-16
+        Men"},{"id":204,"name":"Lake Placid World Cup Race 2015-16 Women"},{"id":208,"name":"Igls
+        Intercontinental Cup Race 2015-16 Women"},{"id":206,"name":"Igls Intercontinental
+        Cup Race 2015-16 Men"},{"id":207,"name":"Igls Intercontinental Cup Race 2015-16
+        Women"},{"id":205,"name":"Igls Intercontinental Cup Race 2015-16 Men"},{"id":211,"name":"Sigulda
+        Europa Cup Race 2015-16 Men"},{"id":212,"name":"Sigulda Europa Cup Race 2015-16
+        Women"},{"id":210,"name":"Sigulda Europa Cup Race 2015-16 Women"},{"id":209,"name":"Sigulda
+        Europa Cup Race 2015-16 Men"},{"id":200,"name":"Konigssee World Cup Race 2015-16
+        Men"},{"id":201,"name":"Konigssee World Cup Race 2015-16 Women"},{"id":199,"name":"Altenberg
+        Europa Cup Race 2015-16 Women"},{"id":198,"name":"Altenberg Europa Cup Race
+        2015-16 Men"},{"id":195,"name":"Winterberg World Cup Race 2015-16 Women"},{"id":197,"name":"Altenberg
+        Europa Cup Race 2015-16 Women"},{"id":196,"name":"Altenberg Europa Cup Race
+        2015-16 Men"},{"id":194,"name":"Winterberg World Cup Race 2015-16 Men"},{"id":192,"name":"Whistler
+        Intercontinental Cup Race 2015-16 Men"},{"id":193,"name":"Whistler Intercontinental
+        Cup Race 2015-16 Women"},{"id":191,"name":"Whistler Intercontinental Cup Race
+        2015-16 Women"},{"id":190,"name":"Whistler Intercontinental Cup Race 2015-16
+        Men"},{"id":175,"name":"Altenberg World Cup Race 2015-16 Men"},{"id":176,"name":"Altenberg
+        World Cup Race 2015-16 Women"},{"id":187,"name":"Whistler North American Cup
+        Race 2015-16 Women"},{"id":182,"name":"Whistler North American Cup Race 2015-16
+        Men"},{"id":181,"name":"Whistler North American Cup Race 2015-16 Men"},{"id":186,"name":"Whistler
+        North American Cup Race 2015-16 Women"},{"id":179,"name":"Lake Placid Intercontinental
+        Cup Race 2015-16 Women"},{"id":174,"name":"Lake Placid Intercontinental Cup
+        Race 2015-16 Men"},{"id":173,"name":"Lake Placid Intercontinental Cup Race
+        2015-16 Men"},{"id":178,"name":"Lake Placid Intercontinental Cup Race 2015-16
+        Women"},{"id":189,"name":"Calgary North American Cup Race 2015-16 Women"},{"id":184,"name":"Calgary
+        North American Cup Race 2015-16 Men"},{"id":183,"name":"Calgary North American
+        Cup Race 2015-16 Men"},{"id":188,"name":"Calgary North American Cup Race 2015-16
+        Women"},{"id":134,"name":"Winterberg World Championship Race 2014-15 Women"},{"id":21,"name":"Winterberg
+        World Championship Race 2014-15 Men"},{"id":13,"name":"Sochi World Cup Race
+        2014-15 Men"},{"id":155,"name":"Altenberg Junior World Championship Race 2014-15
+        Men"},{"id":118,"name":"Sochi World Cup Race 2014-15 Women"},{"id":156,"name":"Altenberg
+        Junior World Championship Race 2014-15 Women"},{"id":120,"name":"Igls World
+        Cup Race 2014-15 Women"},{"id":119,"name":"Igls World Cup Race 2014-15 Women"},{"id":12,"name":"Igls
+        World Cup Race 2014-15 Men"},{"id":20,"name":"La Plagne World Cup Race 2014-15
+        Men"},{"id":150,"name":"Calgary North American Cup Race 2014-15 Women"},{"id":136,"name":"Calgary
+        Intercontinental Cup Race 2014-15 Women"},{"id":126,"name":"Calgary Intercontinental
+        Cup Race 2014-15 Men"},{"id":165,"name":"Calgary North American Cup Race 2014-15
+        Men"},{"id":127,"name":"Calgary Intercontinental Cup Race 2014-15 Men"},{"id":164,"name":"Calgary
+        North American Cup Race 2014-15 Men"},{"id":149,"name":"Calgary North American
+        Cup Race 2014-15 Women"},{"id":135,"name":"Calgary Intercontinental Cup Race
+        2014-15 Women"},{"id":17,"name":"St. Moritz World Cup Race 2014-15 Men"},{"id":121,"name":"St.
+        Moritz World Cup Race 2014-15 Women"},{"id":166,"name":"Igls Europa Cup Race
+        2014-15 Women"},{"id":167,"name":"Igls Europa Cup Race 2014-15 Women"},{"id":148,"name":"Whistler
+        North American Cup Race 2014-15 Women"},{"id":163,"name":"Whistler North American
+        Cup Race 2014-15 Men"},{"id":129,"name":"Whistler Intercontinental Cup Race
+        2014-15 Men"},{"id":11,"name":"Konigssee World Cup Race 2014-15 Men"},{"id":137,"name":"Whistler
+        Intercontinental Cup Race 2014-15 Women"},{"id":162,"name":"Whistler North
+        American Cup Race 2014-15 Men"},{"id":122,"name":"Konigssee World Cup Race
+        2014-15 Women"},{"id":147,"name":"Whistler North American Cup Race 2014-15
+        Women"},{"id":128,"name":"Whistler Intercontinental Cup Race 2014-15 Men"},{"id":138,"name":"Whistler
+        Intercontinental Cup Race 2014-15 Women"},{"id":168,"name":"St. Moritz Europa
+        Cup Race 2014-15 Women"},{"id":16,"name":"Altenberg World Cup Race 2014-15
+        Men"},{"id":157,"name":"Altenberg World Cup Race 2014-15 Women"},{"id":124,"name":"Calgary
+        World Cup Race 2014-15 Women"},{"id":8,"name":"Calgary World Cup Race 2014-15
+        Men"},{"id":125,"name":"Lake Placid World Cup Race 2014-15 Women"},{"id":7,"name":"Lake
+        Placid World Cup Race 2014-15 Men"},{"id":139,"name":"Winterberg Intercontinental
+        Cup Race 2014-15 Women"},{"id":158,"name":"Winterberg Europa Cup Race 2014-15
+        Women"},{"id":130,"name":"Winterberg Intercontinental Cup Race 2014-15 Men"},{"id":169,"name":"Konigssee
+        Europa Cup Race 2014-15 Women"},{"id":131,"name":"Konigssee Intercontinental
+        Cup Race 2014-15 Men"},{"id":140,"name":"Konigssee Intercontinental Cup Race
+        2014-15 Women"},{"id":170,"name":"Konigssee Europa Cup Race 2014-15 Women"},{"id":132,"name":"Konigssee
+        Intercontinental Cup Race 2014-15 Men"},{"id":141,"name":"Konigssee Intercontinental
+        Cup Race 2014-15 Women"},{"id":171,"name":"Lillehammer Europa Cup Race 2014-15
+        Women"},{"id":142,"name":"Lillehammer Intercontinental Cup Race 2014-15 Women"},{"id":146,"name":"Calgary
+        North American Cup Race 2014-15 Women"},{"id":161,"name":"Calgary North American
+        Cup Race 2014-15 Men"},{"id":133,"name":"Lillehammer Intercontinental Cup
+        Race 2014-15 Men"},{"id":172,"name":"Lillehammer Europa Cup Race 2014-15 Women"},{"id":160,"name":"Calgary
+        North American Cup Race 2014-15 Men"},{"id":159,"name":"Lillehammer Europa
+        Cup Race 2014-15 Men"},{"id":145,"name":"Calgary North American Cup Race 2014-15
+        Women"},{"id":144,"name":"Park City North American Cup Race 2014-15 Women"},{"id":152,"name":"Park
+        City North American Cup Race 2014-15 Men"},{"id":143,"name":"Park City North
+        American Cup Race 2014-15 Women"},{"id":151,"name":"Park City North American
+        Cup Race 2014-15 Men"},{"id":31,"name":"Sochi Olympic Winter Games Race 2013-14
+        Men"},{"id":30,"name":"Konigssee World Cup Race 2013-14 Men"},{"id":153,"name":"Konigssee
+        World Cup Race 2013-14 Women"},{"id":29,"name":"Igls World Cup Race 2013-14
+        Men"},{"id":154,"name":"Igls World Cup Race 2013-14 Women"},{"id":28,"name":"St.
+        Moritz World Cup Race 2013-14 Men"},{"id":27,"name":"St. Moritz World Cup
+        Race 2013-14 Men"},{"id":26,"name":"Winterberg World Cup Race 2013-14 Men"},{"id":226,"name":"Altenberg
+        Intercontinental Cup Race 2013-14 Men"},{"id":25,"name":"Lake Placid World
+        Cup Race 2013-14 Men"},{"id":225,"name":"Altenberg Intercontinental Cup Race
+        2013-14 Men"},{"id":224,"name":"Igls Intercontinental Cup Race 2013-14 Men"},{"id":24,"name":"Park
+        City World Cup Race 2013-14 Men"},{"id":223,"name":"Igls Intercontinental
+        Cup Race 2013-14 Men"},{"id":23,"name":"Calgary World Cup Race 2013-14 Men"},{"id":33,"name":"Sochi
+        World Cup Race 2012-13 Men"},{"id":43,"name":"St. Moritz World Championship
+        Race 2012-13 Men"},{"id":34,"name":"Igls World Cup Race 2012-13 Men"},{"id":35,"name":"Konigssee
+        World Cup Race 2012-13 Men"},{"id":36,"name":"Altenberg World Cup Race 2012-13
+        Men"},{"id":37,"name":"La Plagne World Cup Race 2012-13 Men"},{"id":38,"name":"Winterberg
+        World Cup Race 2012-13 Men"},{"id":39,"name":"Whistler World Cup Race 2012-13
+        Men"},{"id":40,"name":"Park City World Cup Race 2012-13 Men"},{"id":41,"name":"Lake
+        Placid World Cup Race 2012-13 Men"},{"id":52,"name":"Lake Placid World Championship
+        Race 2011-12 Men"},{"id":44,"name":"Calgary World Cup Race 2011-12 Men"},{"id":45,"name":"Whistler
+        World Cup Race 2011-12 Men"},{"id":46,"name":"St. Moritz World Cup Race 2011-12
+        Men"},{"id":47,"name":"Konigssee World Cup Race 2011-12 Men"},{"id":48,"name":"Altenberg
+        World Cup Race 2011-12 Men"},{"id":49,"name":"Winterberg World Cup Race 2011-12
+        Men"},{"id":50,"name":"La Plagne World Cup Race 2011-12 Men"},{"id":51,"name":"Igls
+        World Cup Race 2011-12 Men"},{"id":61,"name":"Konigssee World Championship
+        Race 2010-11 Men"},{"id":53,"name":"Cesana World Cup Race 2010-11 Men"},{"id":54,"name":"St.
+        Moritz World Cup Race 2010-11 Men"},{"id":55,"name":"Winterberg World Cup
+        Race 2010-11 Men"},{"id":56,"name":"Igls World Cup Race 2010-11 Men"},{"id":57,"name":"Lake
+        Placid World Cup Race 2010-11 Men"},{"id":58,"name":"Park City World Cup Race
+        2010-11 Men"},{"id":59,"name":"Calgary World Cup Race 2010-11 Men"},{"id":60,"name":"Whistler
+        World Cup Race 2010-11 Men"},{"id":70,"name":"Whistler Olympic Winter Games
+        Race 2009-10 Men"},{"id":62,"name":"Igls World Cup Race 2009-10 Men"},{"id":63,"name":"St.
+        Moritz World Cup Race 2009-10 Men"},{"id":64,"name":"Konigssee (old) World
+        Cup Race 2009-10 Men"},{"id":65,"name":"Altenberg World Cup Race 2009-10 Men"},{"id":66,"name":"Winterberg
+        World Cup Race 2009-10 Men"},{"id":67,"name":"Cesana World Cup Race 2009-10
+        Men"},{"id":68,"name":"Lake Placid World Cup Race 2009-10 Men"},{"id":69,"name":"Park
+        City World Cup Race 2009-10 Men"},{"id":79,"name":"Lake Placid World Championship
+        Race 2008-09 Men"},{"id":71,"name":"Park City World Cup Race 2008-09 Men"},{"id":72,"name":"Park
+        City World Cup Race 2008-09 Men"},{"id":73,"name":"Whistler World Cup Race
+        2008-09 Men"},{"id":74,"name":"St. Moritz World Cup Race 2008-09 Men"},{"id":76,"name":"Konigssee
+        (old) World Cup Race 2008-09 Men"},{"id":75,"name":"Igls World Cup Race 2008-09
+        Men"},{"id":77,"name":"Altenberg World Cup Race 2008-09 Men"},{"id":78,"name":"Winterberg
+        World Cup Race 2008-09 Men"},{"id":88,"name":"Altenberg World Championship
+        Race 2007-08 Men"},{"id":80,"name":"Winterberg World Cup Race 2007-08 Men"},{"id":81,"name":"Konigssee
+        (old) World Cup Race 2007-08 Men"},{"id":82,"name":"St. Moritz World Cup Race
+        2007-08 Men"},{"id":83,"name":"Cesana World Cup Race 2007-08 Men"},{"id":84,"name":"Cesana
+        World Cup Race 2007-08 Men"},{"id":85,"name":"Lake Placid World Cup Race 2007-08
+        Men"},{"id":86,"name":"Park City World Cup Race 2007-08 Men"},{"id":87,"name":"Calgary
+        World Cup Race 2007-08 Men"},{"id":90,"name":"Konigssee (old) World Cup Race
+        2006-07 Men"},{"id":91,"name":"Winterberg World Cup Race 2006-07 Men"},{"id":92,"name":"Cesana
+        World Cup Race 2006-07 Men"},{"id":89,"name":"St. Moritz World Championship
+        Race 2006-07 Men"},{"id":94,"name":"Igls World Cup Race 2006-07 Men"},{"id":95,"name":"Nagano
+        World Cup Race 2006-07 Men"},{"id":96,"name":"Lake Placid World Cup Race 2006-07
+        Men"},{"id":97,"name":"Park City World Cup Race 2006-07 Men"},{"id":98,"name":"Calgary
+        World Cup Race 2006-07 Men"},{"id":106,"name":"Cesana Olympic Winter Games
+        Race 2005-06 Men"},{"id":99,"name":"Altenberg World Cup Race 2005-06 Men"},{"id":100,"name":"St.
+        Moritz World Cup Race 2005-06 Men"},{"id":101,"name":"Konigssee (old) World
+        Cup Race 2005-06 Men"},{"id":102,"name":"Sigulda World Cup Race 2005-06 Men"},{"id":103,"name":"Igls
+        World Cup Race 2005-06 Men"},{"id":104,"name":"Lake Placid World Cup Race
+        2005-06 Men"},{"id":105,"name":"Calgary World Cup Race 2005-06 Men"},{"id":114,"name":"Calgary
+        World Championship Race 2004-05 Men"},{"id":107,"name":"Lake Placid World
+        Cup Race 2004-05 Men"},{"id":108,"name":"St. Moritz World Cup Race 2004-05
+        Men"},{"id":109,"name":"Cesana World Cup Race 2004-05 Men"},{"id":110,"name":"Sigulda
+        World Cup Race 2004-05 Men"},{"id":111,"name":"Igls World Cup Race 2004-05
+        Men"},{"id":112,"name":"Altenberg World Cup Race 2004-05 Men"},{"id":113,"name":"Winterberg
+        World Cup Race 2004-05 Men"},{"id":117,"name":"Park City Olympic Winter Games
+        Race 2001-02 Men"},{"id":116,"name":"Winterberg World Cup Race 2000-01 Men"},{"id":115,"name":"Winterberg
+        World Cup Race 1998-99 Men"}]'
+    http_version: 
+  recorded_at: Thu, 28 Jul 2016 19:24:01 GMT
+recorded_with: VCR 3.0.3

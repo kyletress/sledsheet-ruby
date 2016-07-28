@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sledsheet/ruby/version'
+require 'sledsheet/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sledsheet-ruby"
-  spec.version       = Sledsheet::Ruby::VERSION
+  spec.name          = "sledsheet"
+  spec.version       = Sledsheet::VERSION
   spec.authors       = ["Kyle Tress"]
   spec.email         = ["kyle@kyletress.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Gem to wrap sledsheet.com api}
+  spec.description   = %q{Gem to wrap sledsheet.com api}
+  spec.homepage      = "https://github.com/kyletress/sledsheet-ruby"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -30,4 +30,9 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest"
+  spec.add_development_dependency "vcr"
+  spec.add_development_dependency "webmock"
+
+  spec.add_dependency "faraday"
+  spec.add_dependency "json"
 end
